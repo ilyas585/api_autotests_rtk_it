@@ -1,0 +1,2 @@
+class CheckerDevice:
+    pass
