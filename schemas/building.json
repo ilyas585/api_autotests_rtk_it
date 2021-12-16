@@ -1,0 +1,137 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "company_id": {
+      "type": "integer"
+    },
+    "mrf_id": {
+      "type": "integer"
+    },
+    "rf_id": {
+      "type": "integer"
+    },
+    "fias": {
+      "type": "null"
+    },
+    "postal_code": {
+      "type": "integer"
+    },
+    "region_orpon_id": {
+      "type": "integer"
+    },
+    "region_kladr_id": {
+      "type": "string"
+    },
+    "region": {
+      "type": "string"
+    },
+    "area_orpon_id": {
+      "type": "integer"
+    },
+    "area_kladr_id": {
+      "type": "string"
+    },
+    "area": {
+      "type": "null"
+    },
+    "city_orpon_id": {
+      "type": "integer"
+    },
+    "city_kladr_id": {
+      "type": "string"
+    },
+    "place": {
+      "type": "string"
+    },
+    "street_orpon_id": {
+      "type": "integer"
+    },
+    "street_kladr_id": {
+      "type": "string"
+    },
+    "street": {
+      "type": "string"
+    },
+    "orpon_id": {
+      "type": "integer"
+    },
+    "house_kladr_id": {
+      "type": "string"
+    },
+    "numbering": {
+      "type": "null"
+    },
+    "fias_level": {
+      "type": "integer"
+    },
+    "fias_actuality_state": {
+      "type": "null"
+    },
+    "kladr_id": {
+      "type": "string"
+    },
+    "capital_marker": {
+      "type": "null"
+    },
+    "okato": {
+      "type": "integer"
+    },
+    "oktmo": {
+      "type": "integer"
+    },
+    "lat": {
+      "type": "null"
+    },
+    "lon": {
+      "type": "null"
+    },
+    "utc_offset": {
+      "type": "integer"
+    },
+    "district": {
+      "type": "null"
+    },
+    "unom": {
+      "type": "null"
+    },
+    "rooms": {
+      "type": "array",
+      "items": {}
+    }
+  },
+  "required": [
+    "id",
+    "company_id",
+    "mrf_id",
+    "rf_id",
+    "fias",
+    "postal_code",
+    "region_orpon_id",
+    "region_kladr_id",
+    "region",
+    "city_orpon_id",
+    "place",
+    "street_orpon_id",
+    "street_kladr_id",
+    "street",
+    "orpon_id",
+    "house_kladr_id",
+    "numbering",
+    "fias_level",
+    "fias_actuality_state",
+    "kladr_id",
+    "capital_marker",
+    "okato",
+    "oktmo",
+    "lat",
+    "lon",
+    "utc_offset",
+    "district",
+    "unom",
+    "rooms"
+  ]
+}
